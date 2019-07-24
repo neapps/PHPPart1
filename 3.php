@@ -31,21 +31,32 @@ echo $integer_dua;
 echo "<br/>";
 
 //contoh tipe data "Float" yang berisikan bilangan desimal
-//$float_satu = 12,09;
-//$float_dua = 123,456;
+$float_satu = 2.09;
+$float_dua = 123.456;
 
-//echo $float_satu;
-//echo "<br/>";
-//echo $float_dua;
-//echo "<br/>";
+echo $float_satu;
+echo "<br/>";
+echo $float_dua;
+echo "<br/>";
 
 //contoh tipe data "Boolean" yang berisikan value true or false 
-//$boolean_satu = true;
-//$boolean_dua = false;
+$boolean_satu = true;
+$boolean_dua = false;
+
+echo $boolean_satu;
+echo "<br/>";
+echo $boolean_dua;
+echo "<br/>";
 
 //contoh tipe data "Array" yang mempunyai penyimpanan banyak variabel
 $array_satu = array("DPM","BEM","SENADA");
-$array_dua = array("Braincode","DSC","NETS","MUDENG");
+//$array_dua = array("Braincode","DSC","NETS","MUDENG");
 
+echo $array_satu[0];
+echo "<br/>";
+echo $array_satu[1];
+echo "<br/>";
+echo $array_satu[2];
+echo "<br/>";
 
 ?>
