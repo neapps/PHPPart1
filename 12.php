@@ -22,5 +22,22 @@ echo "<br/>";
 
 require('tes.php');
 echo "teks diatas di panggil dari tes.php menggunakan require";
+echo "<br/>";
+
+// Sedangkan menggunakan include_once() dan require_once() akan memastikan
+// bahwa file yang di sertakan hanya satu kali walaupun di tulis berkali-
+// kali, jika tidak menggunakan _once makan terjadi error jika kita mennyertakan
+// file lebih dari satu kali
+// contoh include_once
+
+include_once('tes2.php');
+echo "<br/>";
+echo "ini include_once";
+echo "<br/>";
+
+// contoh require_once
+// require_once('tes2.php');
+// echo "<br/>";
+// echo "ini require_once";
 
 ?>
