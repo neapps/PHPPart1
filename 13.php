@@ -2,7 +2,8 @@
 // ================
 // Foreach pada PHP
 // ================
-// Foreach adalah
+// Foreach adalah perulangan khusus untuk pembacaan nilai array melalui variabel perantara
+
 echo "<h2> Contoh Foreach </h2>";
 
 $nama = array("elsa","anna","stephan");
