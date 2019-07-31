@@ -4,7 +4,7 @@ Membuat Form dengan method GET dan POST PHP
 ===========================================
 pertama kita akan membuat file lagi dengan judul
 index.php, karena di dalam index.php ini kita
-akan menampilkan hasil Formnya
+akan di isi oleh Method.
 berikut adalah contoh nya -->
 
 <!-- disini kita membuat form nya menggunakan method GET -->
