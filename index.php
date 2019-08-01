@@ -1,11 +1,9 @@
-<?php
-// membuat method dan menangkap method nama
-$nama = $_GET['nama'];
-$alamat = $_GET['alamat'];
+<!-- disini kita membuat form nya menggunakan method GET -->
 
-// menampilkan data 
-echo "Nama anda adalah " . $nama;
-echo "<br/>";
-echo "Alamat anda " . $alamat;
-
-?>
+<form method = "GET" action="index.php">
+	<label>Masukan Nama</label><br/>
+	<input type="text" name="nama"><br/>
+	<label>Masukan Alamat</label><br/>
+	<input type="text" name="alamat"><br/>
+	<input type="submit" name="oke">
+</form>
