@@ -1,18 +1,17 @@
-<!-- 
-===========================================
-Membuat Form dengan method GET dan POST PHP
-===========================================
-pertama kita akan membuat file lagi dengan judul
-index.php, karena di dalam index.php ini kita
-akan di isi oleh Method.
-berikut adalah contoh nya -->
+<?php
+// ===========================================
+// Membuat Form dengan method GET dan POST PHP
+// ===========================================
+// pertama kita akan membuat file lagi dengan judul
+// index.php, karena di dalam index.php ini kita
+// akan memunculkan form nya. berikut adalah contoh nya
+// membuat method dan menangkap method nama
+$nama = $_GET['nama'];
+$alamat = $_GET['alamat'];
 
-<!-- disini kita membuat form nya menggunakan method GET -->
+// menampilkan data 
+echo "Nama anda adalah " . $nama;
+echo "<br/>";
+echo "Alamat anda " . $alamat;
 
-<form method = "GET" action="16.php">
-	<label>Masukan Nama</label><br/>
-	<input type="text" name="nama"><br/>
-	<label>Masukan Alamat</label><br/>
-	<input type="text" name="alamat"><br/>
-	<input type="submit" name="oke">
-</form>
+?>
