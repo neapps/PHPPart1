@@ -5,7 +5,7 @@
 // pertama kita akan membuat file lagi dengan judul
 // index.php, karena di dalam index.php ini kita
 // akan memunculkan form nya. berikut adalah contoh nya
-// membuat method dan menangkap method nama
+// membuat method dan menangkap method nama menggunakan GET:
 $nama = $_GET['nama'];
 $alamat = $_GET['alamat'];
 
@@ -13,5 +13,14 @@ $alamat = $_GET['alamat'];
 echo "Nama anda adalah " . $nama;
 echo "<br/>";
 echo "Alamat anda " . $alamat;
+
+// menggunakan method POST:
+
+// $nama = $_GET['nama'];
+// $alamat = $_GET['alamat'];
+
+//echo "Nama anda adalah " . $nama;
+//echo "<br/>";
+//echo "Alamat anda " . $alamat;
 
 ?>
