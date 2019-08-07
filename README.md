@@ -2,9 +2,6 @@
 ## Pengertian PHP dan Sejarah PHP
 PHP: Hypertext Preprocessor adalah bahasa skrip yang dapat ditanamkan atau disisipkan ke dalam HTML. PHP di kembangkan pada tahun 1995 oleh Rasmus Lerdorf, dan sekarang dikelola oleh The PHP Group. Situs resmi PHP beralamat di http://www.php.net.
 
-## Logo PHP
-<img scr="https://github.com/neapps/PHPPart1/blob/master/php.png">
-
 ## Materi yang di sampaikan pada PHPPart1
 1. menampilkan echo
 
